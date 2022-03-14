@@ -20,12 +20,12 @@ Implement a timer, and warp in enemy ships every 2 minutes and 16 seconds. Reset
 player warps to the next sector.
 Implement a very basic, randomized sector of space (just black screen is fine). There are only 3 things 
 the player can collect or interact with in each Sector
-              * Fuel – fuel is consumed when your ship moves. It’s consumed when jumping to a new 
+*  Fuel – fuel is consumed when your ship moves. It’s consumed when jumping to a new 
 Sector (a lot), and when moving around within a sector (a little).
-              * Ships – When you interact with a Ship (takes time), it’s added to your fleet. Adding ships 
+*  Ships – When you interact with a Ship (takes time), it’s added to your fleet. Adding ships 
 increases the max population you can hold. Adding a ship also increases the amount of 
 fuel you need to move and jump. Adding a ship increases to your fleets Shields.
-              * Escape Pods – When you interact with an escape pod, you add a random population to 
+*  Escape Pods – When you interact with an escape pod, you add a random population to 
 your fleet. You require ships to hold the population.
 Implement a Player controlled Ship, which represents a fleet. If possible, each ship you collect gets 
 added to the fleet as a smaller, following ship.
