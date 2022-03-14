@@ -29,6 +29,8 @@ fuel you need to move and jump. Adding a ship increases to your fleets Shields.
 your fleet. You require ships to hold the population.
 Implement a Player controlled Ship, which represents a fleet. If possible, each ship you collect gets 
 added to the fleet as a smaller, following ship.
+
+
 Implement an enemy fleet, which warps in and pursues your fleet. Your shields prevent a certain 
 amount of damage until they are depleted.
 Implement a very basic UI to show, Fuel, Ships and Population, and a “Jump” button.
