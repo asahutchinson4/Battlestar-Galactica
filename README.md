@@ -18,8 +18,12 @@ game feel.
 # TEST REQUIREMENTS
 Implement a timer, and warp in enemy ships every 2 minutes and 16 seconds. Reset the timer when the 
 player warps to the next sector.
+
+
 Implement a very basic, randomized sector of space (just black screen is fine). There are only 3 things 
 the player can collect or interact with in each Sector
+
+
 *  Fuel – fuel is consumed when your ship moves. It’s consumed when jumping to a new 
 Sector (a lot), and when moving around within a sector (a little).
 *  Ships – When you interact with a Ship (takes time), it’s added to your fleet. Adding ships 
