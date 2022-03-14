@@ -27,14 +27,22 @@ increases the max population you can hold. Adding a ship also increases the amou
 fuel you need to move and jump. Adding a ship increases to your fleets Shields.
 *  Escape Pods – When you interact with an escape pod, you add a random population to 
 your fleet. You require ships to hold the population.
+
+
 Implement a Player controlled Ship, which represents a fleet. If possible, each ship you collect gets 
 added to the fleet as a smaller, following ship.
 
 
 Implement an enemy fleet, which warps in and pursues your fleet. Your shields prevent a certain 
 amount of damage until they are depleted.
+
+
 Implement a very basic UI to show, Fuel, Ships and Population, and a “Jump” button.
+
+
 Implement a win condition when the player reaches a population threshold.
+
+
 Design and implement a random, and interesting adversity condition for the fleet as it progresses 
 through sectors.
 
