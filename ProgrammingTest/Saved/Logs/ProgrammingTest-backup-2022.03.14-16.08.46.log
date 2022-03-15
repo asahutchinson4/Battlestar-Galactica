@@ -1,0 +1,1487 @@
+﻿Log file open, 03/14/22 10:27:28
+LogInit: Display: Running engine for game: ProgrammingTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.169220
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2080 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/Asa Hutchinson IV/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:058][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.03.14-15.27.29:060][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.03.14-15.27.29:061][  0]LogInit: Selected Device Profile: [Windows]
+[2022.03.14-15.27.29:061][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.03.14-15.27.29:061][  0]LogHAL: Display: Platform has ~ 16 GB [17126539264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.03.14-15.27.29:061][  0]LogInit: Going up to parent DeviceProfile []
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.03.14-15.27.29:061][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:061][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Scalability.ini]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.03.14-15.27.29:062][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Config/Windows/Engine.ini]
+[2022.03.14-15.27.29:062][  0]LogInit: Computer: VALERIE
+[2022.03.14-15.27.29:062][  0]LogInit: User: AsaHutchinsonIV
+[2022.03.14-15.27.29:062][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.03.14-15.27.29:062][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.03.14-15.27.29:062][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2022.03.14-15.27.29:062][  0]LogMemory: Platform Memory Stats for Windows
+[2022.03.14-15.27.29:062][  0]LogMemory: Process Physical Memory: 116.65 MB used, 116.66 MB peak
+[2022.03.14-15.27.29:062][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
+[2022.03.14-15.27.29:062][  0]LogMemory: Physical Memory: 7141.71 MB used,  9191.43 MB free, 16333.14 MB total
+[2022.03.14-15.27.29:062][  0]LogMemory: Virtual Memory: 5186.69 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2022.03.14-15.27.29:066][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.03.14-15.27.29:100][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.03.14-15.27.29:101][  0]LogInit: Using OS detected language (en-US).
+[2022.03.14-15.27.29:101][  0]LogInit: Using OS detected locale (en-US).
+[2022.03.14-15.27.29:107][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.03.14-15.27.29:256][  0]LogInit: Setting process to per monitor DPI aware
+[2022.03.14-15.27.29:280][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.03.14-15.27.29:280][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.03.14-15.27.29:387][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.03.14-15.27.29:387][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.03.14-15.27.29:387][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.03.14-15.27.29:387][  0]LogD3D11RHI: D3D11 adapters:
+[2022.03.14-15.27.29:498][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 SUPER' (Feature Level 11_0)
+[2022.03.14-15.27.29:498][  0]LogD3D11RHI:       8010/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.03.14-15.27.29:500][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.03.14-15.27.29:500][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.03.14-15.27.29:500][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.03.14-15.27.29:509][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.03.14-15.27.29:509][  0]LogD3D11RHI:     GPU DeviceId: 0x1e81 (for the marketing name, search the web for "GPU Device Id")
+[2022.03.14-15.27.29:509][  0]LogWindows: EnumDisplayDevices:
+[2022.03.14-15.27.29:509][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 SUPER' (P:1 D:1)
+[2022.03.14-15.27.29:510][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2022.03.14-15.27.29:510][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2022.03.14-15.27.29:510][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 SUPER' (P:0 D:0)
+[2022.03.14-15.27.29:510][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.03.14-15.27.29:510][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 SUPER
+[2022.03.14-15.27.29:510][  0]LogD3D11RHI:   Driver Version: 471.96 (internal:30.0.14.7196, unified:471.96)
+[2022.03.14-15.27.29:510][  0]LogD3D11RHI:      Driver Date: 8-27-2021
+[2022.03.14-15.27.29:510][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2022.03.14-15.27.29:578][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.03.14-15.27.29:578][  0]LogD3D11RHI: Async texture creation enabled
+[2022.03.14-15.27.29:578][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.03.14-15.27.29:604][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.03.14-15.27.29:826][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.03.14-15.27.29:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.03.14-15.27.29:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.03.14-15.27.29:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.03.14-15.27.29:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.03.14-15.27.29:877][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.03.14-15.27.29:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.03.14-15.27.29:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.03.14-15.27.29:900][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.03.14-15.27.29:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.03.14-15.27.29:916][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.03.14-15.27.29:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.03.14-15.27.29:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.03.14-15.27.29:949][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.03.14-15.27.29:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.03.14-15.27.29:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.03.14-15.27.29:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.03.14-15.27.29:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.03.14-15.27.29:985][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.03.14-15.27.29:993][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.03.14-15.27.29:993][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.03.14-15.27.29:998][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.03.14-15.27.30:042][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../Battlestar-Galactica/ProgrammingTest/Intermediate/Shaders/WorkingDirectory/7044/).
+[2022.03.14-15.27.30:042][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Asa Hutchinson IV/AppData/Local/Temp/UnrealShaderWorkingDir/C68D64A34B1D43C10AAFC9ABB94F8269/'.
+[2022.03.14-15.27.30:042][  0]LogXGEController: Cleaning working directory: C:/Users/Asa Hutchinson IV/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.03.14-15.27.30:043][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.03.14-15.27.30:043][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.03.14-15.27.30:043][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.03.14-15.27.30:631][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Asa Hutchinson IV/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Asa Hutchinson IV/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Battlestar-Galactica/ProgrammingTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Battlestar-Galactica/ProgrammingTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.03.14-15.27.30:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.03.14-15.27.30:686][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.03.14-15.27.30:686][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.03.14-15.27.30:686][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.03.14-15.27.30:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Asa Hutchinson IV/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.03.14-15.27.30:687][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.03.14-15.27.30:687][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.03.14-15.27.30:728][  0]LogSlate: Using FreeType 2.10.0
+[2022.03.14-15.27.30:728][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.03.14-15.27.30:747][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2022.03.14-15.27.30:937][  0]LogInit: Selected Device Profile: [Windows]
+[2022.03.14-15.27.31:024][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.03.14-15.27.31:024][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.03.14-15.27.31:024][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.03.14-15.27.31:024][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.03.14-15.27.31:024][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.03.14-15.27.31:035][  0]LogNetVersion: ProgrammingTest 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 835840923)
+[2022.03.14-15.27.31:345][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024F272C9BC0), frame # 0
+[2022.03.14-15.27.31:345][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F2722AAC0), frame # 0
+[2022.03.14-15.27.31:347][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F2728C800), frame # 0
+[2022.03.14-15.27.31:375][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.023375 seconds
+[2022.03.14-15.27.31:380][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.03.14-15.27.31:380][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.03.14-15.27.31:380][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.03.14-15.27.31:640][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.03.14-15.27.31:644][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.03.14-15.27.31:701][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.31:701][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.31:703][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.31:705][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.31:710][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.31:892][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.03.14-15.27.31:906][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.03.14-15.27.31:906][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.03.14-15.27.31:944][  0]LogOcInput: OculusInput pre-init called
+[2022.03.14-15.27.31:953][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.03.14-15.27.31:953][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.03.14-15.27.32:009][  0]LogEngine: Initializing Engine...
+[2022.03.14-15.27.32:010][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.03.14-15.27.32:010][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.03.14-15.27.32:010][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.03.14-15.27.32:102][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.03.14-15.27.32:108][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.03.14-15.27.32:108][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F2A1F3C00), frame # 0
+[2022.03.14-15.27.32:108][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F2A22ED40), frame # 0
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.14-15.27.32:120][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.14-15.27.32:120][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.14-15.27.32:120][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.14-15.27.32:129][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.14-15.27.32:129][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.03.14-15.27.32:152][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.03.14-15.27.32:155][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.14-15.27.32:157][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.14-15.27.32:157][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.14-15.27.32:158][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.14-15.27.32:158][  0]LogInit: FAudioDevice initialized.
+[2022.03.14-15.27.32:159][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.03.14-15.27.32:229][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/Asa Hutchinson IV/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.03.14-15.27.32:230][  0]LogInit: Texture streaming: Enabled
+[2022.03.14-15.27.32:242][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.03.14-15.27.32:242][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.03.14-15.27.32:243][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.03.14-15.27.32:281][  0]LogInit: Transaction tracking system initialized
+[2022.03.14-15.27.32:296][  0]BlueprintLog: New page: Editor Load
+[2022.03.14-15.27.32:347][  0]LocalizationService: Localization service is disabled
+[2022.03.14-15.27.32:460][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.03.14-15.27.32:460][  0]LogCook: Display: Mobile HDR setting 1
+[2022.03.14-15.27.32:544][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Content/' took 0.00s
+[2022.03.14-15.27.32:673][  0]SourceControl: Source control is disabled
+[2022.03.14-15.27.32:674][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.342
+[2022.03.14-15.27.32:674][  0]Cmd: MAP LOAD FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.03.14-15.27.32:674][  0]LightingResults: New page: Lighting Build
+[2022.03.14-15.27.32:674][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-15.27.32:674][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-15.27.32:674][  0]MapCheck: New page: Map Check
+[2022.03.14-15.27.32:674][  0]LightingResults: New page: Lighting Build
+[2022.03.14-15.27.32:692][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024F2A1F3C00), frame # 0
+[2022.03.14-15.27.32:692][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024F2A22ED40), frame # 0
+[2022.03.14-15.27.32:693][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.03.14-15.27.32:745][  0]LogAIModule: Creating AISystem for world Main
+[2022.03.14-15.27.32:745][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F188FC800), frame # 0
+[2022.03.14-15.27.32:745][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F18F81D00), frame # 0
+[2022.03.14-15.27.32:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.03.14-15.27.32:758][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.03.14-15.27.32:759][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.03.14-15.27.32:759][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2022.03.14-15.27.32:759][  0]LogFileHelpers: Loading map 'Main' took 0.085
+[2022.03.14-15.27.32:760][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.429
+[2022.03.14-15.27.32:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.14-15.27.32:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.14-15.27.32:890][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.14-15.27.32:895][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.14-15.27.32:900][  0]LogCollectionManager: Loaded 0 collections in 0.001669 seconds
+[2022.03.14-15.27.32:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Saved/Collections/' took 0.00s
+[2022.03.14-15.27.32:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Content/Developers/AsaHutchinsonIV/Collections/' took 0.00s
+[2022.03.14-15.27.32:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Asa Hutchinson IV/Battlestar-Galactica/ProgrammingTest/Content/Collections/' took 0.00s
+[2022.03.14-15.27.32:912][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3427 classes and 821 folders.
+[2022.03.14-15.27.32:914][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.03.14-15.27.32:964][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.03.14-15.27.32:967][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2022.03.14-15.27.33:040][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.03.14-15.27.33:043][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.03.14-15.27.33:047][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.03.14-15.27.33:093][  0]LogRenderer: Reallocating scene render targets to support 1772x952 Format 10 NumSamples 1 (Frame:1).
+[2022.03.14-15.27.33:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.03.14-15.27.33:200][  0]LogLoad: (Engine Initialization) Total time: 5.87 seconds
+[2022.03.14-15.27.33:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.03.14-15.27.33:231][  0]LogAssetRegistry: Asset discovery search completed in 2.4857 seconds
+[2022.03.14-15.27.33:234][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.03.14-15.27.33:235][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.03.14-15.27.34:218][103]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.14-15.27.37:245][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameModeBase.BP_GameModeBase
+[2022.03.14-15.27.37:371][256]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2022.03.14-15.27.38:060][256]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerBase.BP_PlayerBase
+[2022.03.14-15.27.38:343][256]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_EnemyDrone.T_EnemyDrone
+[2022.03.14-15.27.38:348][256]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.03.14-15.27.38:410][256]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_BasicProjectile.T_BasicProjectile
+[2022.03.14-15.27.46:252][637]LogTexture: Display: Building textures: T_BasicProjectile (BGRA8, 32X64)
+[2022.03.14-15.27.46:254][637]LogTexture: Display: Building textures: T_BasicProjectileMissile (BGRA8, 64X128)
+[2022.03.14-15.27.46:257][637]LogTexture: Display: Building textures: T_EnemyDrone (BGRA8, 256X256)
+[2022.03.14-15.27.46:262][637]LogTexture: Display: Building textures: T_EnemyLargeAttackship (BGRA8, 256X256)
+[2022.03.14-15.27.46:267][637]LogTexture: Display: Building textures: T_EnemyMidAttackship (BGRA8, 256X256)
+[2022.03.14-15.27.46:271][637]LogTexture: Display: Building textures: T_EnemySmallAttackship (BGRA8, 128X256)
+[2022.03.14-15.27.46:275][637]LogTexture: Display: Building textures: T_PickupFuelIdle (BGRA8, 64X128)
+[2022.03.14-15.27.46:279][637]LogTexture: Display: Building textures: T_PlayerEscapePod (BGRA8, 48X48)
+[2022.03.14-15.27.46:280][637]LogTexture: Display: Building textures: T_PlayerFleetship (BGRA8, 256X256)
+[2022.03.14-15.27.46:284][637]LogTexture: Display: Building textures: T_PlayerShip (BGRA8, 128X256)
+[2022.03.14-15.32.01:190][727]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_PlayerShip.T_PlayerShip
+[2022.03.14-15.36.40:969][389]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.14-15.36.47:653][772]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.36.56:730][195]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.37.52:375][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.03.14-15.37.52:377][271]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.048
+[2022.03.14-15.37.52:377][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone] ([1] browsable assets)...
+[2022.03.14-15.37.52:383][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_EnemyDrone.T_EnemyDrone]
+[2022.03.14-15.37.52:383][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone]
+[2022.03.14-15.37.52:386][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Auto11327F6714F1E5A939D74ED8505FB5FBA.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Auto1.uasset'
+[2022.03.14-15.37.52:387][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectile] ([1] browsable assets)...
+[2022.03.14-15.37.52:388][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_BasicProjectile.T_BasicProjectile]
+[2022.03.14-15.37.52:388][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectile]
+[2022.03.14-15.37.52:390][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Auto141419B004AA9FDD4103F24975D5C7479.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectile_Auto1.uasset'
+[2022.03.14-15.37.52:390][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile] ([1] browsable assets)...
+[2022.03.14-15.37.52:391][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_BasicProjectileMissile.T_BasicProjectileMissile]
+[2022.03.14-15.37.52:391][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile]
+[2022.03.14-15.37.52:393][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Auto1818C14DB4AC1BF7A06E0628A28612391.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Auto1.uasset'
+[2022.03.14-15.37.52:394][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship] ([1] browsable assets)...
+[2022.03.14-15.37.52:398][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_EnemyLargeAttackship.T_EnemyLargeAttackship]
+[2022.03.14-15.37.52:398][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship]
+[2022.03.14-15.37.52:401][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Auto16FF6883849B4DD447C762CB747C3892E.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Auto1.uasset'
+[2022.03.14-15.37.52:401][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyMidAttackship] ([1] browsable assets)...
+[2022.03.14-15.37.52:405][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_EnemyMidAttackship.T_EnemyMidAttackship]
+[2022.03.14-15.37.52:405][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyMidAttackship]
+[2022.03.14-15.37.52:409][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyMidAttackship_Auto13BD9CC4C4A32F81A8F7EFC876ED31C62.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyMidAttackship_Auto1.uasset'
+[2022.03.14-15.37.52:409][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemySmallAttackship] ([1] browsable assets)...
+[2022.03.14-15.37.52:412][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_EnemySmallAttackship.T_EnemySmallAttackship]
+[2022.03.14-15.37.52:412][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemySmallAttackship]
+[2022.03.14-15.37.52:415][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemySmallAttackship_Auto1DB7104194C787600A96FEC8BF1499A47.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemySmallAttackship_Auto1.uasset'
+[2022.03.14-15.37.52:415][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_PickupFuelIdle] ([1] browsable assets)...
+[2022.03.14-15.37.52:416][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_PickupFuelIdle.T_PickupFuelIdle]
+[2022.03.14-15.37.52:416][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_PickupFuelIdle]
+[2022.03.14-15.37.52:419][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PickupFuelIdle_Auto1B4E2FC034CBE5457ED6D5D93AE9DCD59.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_PickupFuelIdle_Auto1.uasset'
+[2022.03.14-15.37.52:419][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_PlayerEscapePod] ([1] browsable assets)...
+[2022.03.14-15.37.52:420][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_PlayerEscapePod.T_PlayerEscapePod]
+[2022.03.14-15.37.52:420][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_PlayerEscapePod]
+[2022.03.14-15.37.52:422][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerEscapePod_Auto1CCEB6B9548878B83A80BEA8818E7EEA9.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_PlayerEscapePod_Auto1.uasset'
+[2022.03.14-15.37.52:422][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_PlayerFleetship] ([1] browsable assets)...
+[2022.03.14-15.37.52:426][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_PlayerFleetship.T_PlayerFleetship]
+[2022.03.14-15.37.52:426][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_PlayerFleetship]
+[2022.03.14-15.37.52:430][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerFleetship_Auto1D8A0A22242084471C97CC9A1B186D4B9.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_PlayerFleetship_Auto1.uasset'
+[2022.03.14-15.37.52:430][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_PlayerShip] ([1] browsable assets)...
+[2022.03.14-15.37.52:432][271]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/T_PlayerShip.T_PlayerShip]
+[2022.03.14-15.37.52:432][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_PlayerShip]
+[2022.03.14-15.37.52:435][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerShip_Auto11B6E2B1C4EDB16992E8252B80F9C7DFE.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_PlayerShip_Auto1.uasset'
+[2022.03.14-15.37.52:436][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_0] ([1] browsable assets)...
+[2022.03.14-15.37.52:440][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_0.T_BasicProjectileMissile_Sprite_0]
+[2022.03.14-15.37.52:440][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_0]
+[2022.03.14-15.37.52:443][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_B4F3DF374808FCAF8107D69672927F01.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_0_Auto1.uasset'
+[2022.03.14-15.37.52:443][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_1] ([1] browsable assets)...
+[2022.03.14-15.37.52:447][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_1.T_BasicProjectileMissile_Sprite_1]
+[2022.03.14-15.37.52:447][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_1]
+[2022.03.14-15.37.52:450][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_F9ED4B664E2911FEABC56CA0F9F45DFC.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_1_Auto1.uasset'
+[2022.03.14-15.37.52:451][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_2] ([1] browsable assets)...
+[2022.03.14-15.37.52:456][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_2.T_BasicProjectileMissile_Sprite_2]
+[2022.03.14-15.37.52:456][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_2]
+[2022.03.14-15.37.52:459][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_656A5B724C23C945F0641CBE6C8D88EA.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_2_Auto1.uasset'
+[2022.03.14-15.37.52:460][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_3] ([1] browsable assets)...
+[2022.03.14-15.37.52:463][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_3.T_BasicProjectileMissile_Sprite_3]
+[2022.03.14-15.37.52:463][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_3]
+[2022.03.14-15.37.52:466][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_1AB9F2CD44E21494EC7559940BD24FB1.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_3_Auto1.uasset'
+[2022.03.14-15.37.52:467][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_4] ([1] browsable assets)...
+[2022.03.14-15.37.52:470][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_4.T_BasicProjectileMissile_Sprite_4]
+[2022.03.14-15.37.52:470][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_4]
+[2022.03.14-15.37.52:473][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_E4CEBC42466D5CE0DBE2AA89AB00B238.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_4_Auto1.uasset'
+[2022.03.14-15.37.52:474][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_5] ([1] browsable assets)...
+[2022.03.14-15.37.52:477][271]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_5.T_BasicProjectileMissile_Sprite_5]
+[2022.03.14-15.37.52:477][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_5]
+[2022.03.14-15.37.52:480][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_7673F9F646D1762334FAC4A5FBE58944.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile_Sprite_5_Auto1.uasset'
+[2022.03.14-15.37.52:481][271]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_BasicProjectileMissile1] ([1] browsable assets)...
+[2022.03.14-15.37.52:484][271]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Assets/Textures/T_BasicProjectileMissile1.T_BasicProjectileMissile1]
+[2022.03.14-15.37.52:485][271]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_BasicProjectileMissile1]
+[2022.03.14-15.37.52:487][271]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile1_Auto12D07E8BB44C069C08815659CBF7086E4.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_BasicProjectileMissile1_Auto1.uasset'
+[2022.03.14-15.37.52:487][271]LogFileHelpers: Auto-saving content packages took 0.110
+[2022.03.14-15.39.56:994][415]Cmd: DELETE
+[2022.03.14-15.39.56:994][415]Cmd: ACTOR DELETE
+[2022.03.14-15.39.57:003][415]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2022.03.14-15.39.57:029][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.03.14-15.39.57:033][415]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2022.03.14-15.40.22:616][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.03.14-15.40.24:462][907]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.40.24:831][907]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile1.T_BasicProjectileMissile1
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_0.T_BasicProjectileMissile_Sprite_0
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_1.T_BasicProjectileMissile_Sprite_1
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_2.T_BasicProjectileMissile_Sprite_2
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_3.T_BasicProjectileMissile_Sprite_3
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_4.T_BasicProjectileMissile_Sprite_4
+	Asset Name: /Game/Assets/Textures/T_BasicProjectileMissile_Sprite_5.T_BasicProjectileMissile_Sprite_5
+[2022.03.14-15.40.26:654][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.03.14-15.43.52:487][464]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.43.54:342][617]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_BasicProjectileMissile.T_BasicProjectileMissile
+[2022.03.14-15.46.09:991][843]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.03.14-15.47.20:752][872]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.03.14-15.47.22:694][982]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.47.47:327][444]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.48.02:368][ 30]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/FB_BasicProjectileMissileD5C3F2124926E94FA4563381CB28A121.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectileMissile.uasset'
+[2022.03.14-15.48.02:576][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.03.14-15.48.02:614][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.03.14-15.48.02:634][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.48.02:657][ 30]AssetCheck: New page: Asset Save: FB_BasicProjectileMissile
+[2022.03.14-15.48.02:657][ 30]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/Flipbooks/FB_BasicProjectileMissile.FB_BasicProjectileMissile
+[2022.03.14-15.48.23:686][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_794B865F4AC495A18075B5B51FD99F3D.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_0.uasset'
+[2022.03.14-15.48.23:695][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_DDA4430E42189A6A822517AFBE7FD920.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_1.uasset'
+[2022.03.14-15.48.23:703][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_38AF150B42695E70617CFA830C1CE07C.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_2.uasset'
+[2022.03.14-15.48.23:711][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_A3B24EDE464FF4B2EE41DEA4C38991ED.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_3.uasset'
+[2022.03.14-15.48.23:718][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_959877DA4E3ABC034F676BAC0A56DF47.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_4.uasset'
+[2022.03.14-15.48.23:726][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile_Sprite_CAB3AE4749EF1E410819A9A7D439AC58.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectileMissile_Sprite_5.uasset'
+[2022.03.14-15.48.24:434][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.48.24:456][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.48.24:476][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.03.14-15.48.24:496][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.48.24:515][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.03.14-15.48.24:538][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.03.14-15.48.24:575][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.03.14-15.48.24:594][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.48.24:624][238]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/FB_BasicProjectileMissile46368E8346A992DA351D9BA4323CFFCC.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectileMissile.uasset'
+[2022.03.14-15.48.24:691][238]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_0.T_BasicProjectileMissile_Sprite_0
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_1.T_BasicProjectileMissile_Sprite_1
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_2.T_BasicProjectileMissile_Sprite_2
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_3.T_BasicProjectileMissile_Sprite_3
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_4.T_BasicProjectileMissile_Sprite_4
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectileMissile_Sprite_5.T_BasicProjectileMissile_Sprite_5
+[2022.03.14-15.48.24:691][238]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/Flipbooks/FB_BasicProjectileMissile.FB_BasicProjectileMissile
+[2022.03.14-15.48.40:516][ 84]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.48.44:899][346]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.48.56:268][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Flipbooks/FB_BasicProjectile" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectile.uasset" SILENT=true
+[2022.03.14-15.48.56:270][505]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/FB_BasicProjectileEA139DE04D5B49169351AFA20583ABED.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectile.uasset'
+[2022.03.14-15.48.56:473][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.03.14-15.48.56:510][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.03.14-15.48.56:530][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.03.14-15.48.56:555][505]AssetCheck: New page: Asset Save: FB_BasicProjectile
+[2022.03.14-15.48.56:555][505]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/Flipbooks/FB_BasicProjectile.FB_BasicProjectile
+[2022.03.14-15.49.02:122][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Sprite_0B0267DBC401C86BD9B784DBBD16D48B9.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectile_Sprite_0.uasset'
+[2022.03.14-15.49.02:128][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Sprite_16512C05F4BC4C4ED5D8F5B81714554F7.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectile_Sprite_1.uasset'
+[2022.03.14-15.49.02:135][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Sprite_2CB30C0B3404ED6889114FC9BB70BA0A4.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectile_Sprite_2.uasset'
+[2022.03.14-15.49.02:141][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Sprite_352C2B46D415F4CE0464F529C2BDBA9B5.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectile_Sprite_3.uasset'
+[2022.03.14-15.49.02:147][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile_Sprite_440F600E04920C1A4F39DF0A67C3B2436.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Sprites/T_BasicProjectile_Sprite_4.uasset'
+[2022.03.14-15.49.02:753][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.49.02:774][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.49.02:793][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.03.14-15.49.02:815][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.03.14-15.49.02:837][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.03.14-15.49.02:871][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.03.14-15.49.02:890][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.49.02:907][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Flipbooks/FB_BasicProjectile" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectile.uasset" SILENT=true
+[2022.03.14-15.49.02:910][790]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/FB_BasicProjectile6226558B454E8A656D5800AB99DF7957.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Flipbooks/FB_BasicProjectile.uasset'
+[2022.03.14-15.49.02:975][790]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectile_Sprite_0.T_BasicProjectile_Sprite_0
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectile_Sprite_1.T_BasicProjectile_Sprite_1
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectile_Sprite_2.T_BasicProjectile_Sprite_2
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectile_Sprite_3.T_BasicProjectile_Sprite_3
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperSprite /Game/Assets/Sprites/T_BasicProjectile_Sprite_4.T_BasicProjectile_Sprite_4
+[2022.03.14-15.49.02:975][790]LogContentValidation: Display: Validating PaperFlipbook /Game/Assets/Flipbooks/FB_BasicProjectile.FB_BasicProjectile
+[2022.03.14-15.49.17:524][299]Cmd: DELETE
+[2022.03.14-15.49.17:524][299]Cmd: ACTOR DELETE
+[2022.03.14-15.49.17:525][299]LogEditorActor: Deleted Actor: PaperFlipbookActor
+[2022.03.14-15.49.17:545][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.03.14-15.49.17:548][299]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.03.14-15.50.30:034][920]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.50.36:852][345]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.50.53:565][542]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_EnemyDrone.T_EnemyDrone
+[2022.03.14-15.52.27:310][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2022.03.14-15.52.28:610][115]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.52.29:755][115]LogUObjectGlobals: Force Deleting 25 Package(s):
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_0.T_EnemyDrone_Sprite_0
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_1.T_EnemyDrone_Sprite_1
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_2.T_EnemyDrone_Sprite_2
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_3.T_EnemyDrone_Sprite_3
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_4.T_EnemyDrone_Sprite_4
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_5.T_EnemyDrone_Sprite_5
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_6.T_EnemyDrone_Sprite_6
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_7.T_EnemyDrone_Sprite_7
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_8.T_EnemyDrone_Sprite_8
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_9.T_EnemyDrone_Sprite_9
+[2022.03.14-15.52.34:861][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.03.14-15.52.37:764][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.14-15.52.39:470][353]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.52.40:526][353]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone1.T_EnemyDrone1
+[2022.03.14-15.52.40:930][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.03.14-15.53.12:976][109]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.53.16:016][289]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.53.23:182][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.03.14-15.53.24:537][703]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.53.24:886][703]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_0.T_EnemyDrone_Sprite_0
+[2022.03.14-15.53.25:270][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.03.14-15.53.30:914][957]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-15.53.48:264][952]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/Textures/T_EnemyDrone2.T_EnemyDrone2
+[2022.03.14-15.53.48:336][953]LogRenderer: Reallocating scene render targets to support 3060x1720 Format 10 NumSamples 1 (Frame:1).
+[2022.03.14-15.53.51:376][260]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-15.53.51:376][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-15.53.54:463][513]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/Textures/T_EnemyDrone1.T_EnemyDrone1
+[2022.03.14-15.53.59:094][900]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Assets/Textures/T_EnemyDrone2.T_EnemyDrone2
+[2022.03.14-15.54.11:739][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.03.14-15.54.12:909][ 47]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.54.13:428][ 47]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-15.54.13:428][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-15.54.13:446][ 47]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone1.T_EnemyDrone1
+[2022.03.14-15.54.13:837][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.03.14-15.55.05:816][957]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_EnemyLargeAttackship.T_EnemyLargeAttackship
+[2022.03.14-15.55.09:414][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.03.14-15.55.09:417][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Maps/Main_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.14-15.55.09:428][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Main_Auto2FB52DA56482FED7003F9539D5D911717.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2022.03.14-15.55.09:428][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.037
+[2022.03.14-15.55.09:428][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2022.03.14-15.55.09:429][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone2] ([1] browsable assets)...
+[2022.03.14-15.55.09:440][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Assets/Textures/T_EnemyDrone2.T_EnemyDrone2]
+[2022.03.14-15.55.09:440][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone2]
+[2022.03.14-15.55.09:443][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone2_Auto2B9B95B414B43FF8A31EDABA5B085273F.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone2_Auto2.uasset'
+[2022.03.14-15.55.09:443][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_1] ([1] browsable assets)...
+[2022.03.14-15.55.09:447][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_1.T_EnemyDrone_Sprite_1]
+[2022.03.14-15.55.09:447][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_1]
+[2022.03.14-15.55.09:450][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_1_Auto2348076FD457E99E623043DAFBD183E34.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_1_Auto2.uasset'
+[2022.03.14-15.55.09:450][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_2] ([1] browsable assets)...
+[2022.03.14-15.55.09:453][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_2.T_EnemyDrone_Sprite_2]
+[2022.03.14-15.55.09:453][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_2]
+[2022.03.14-15.55.09:456][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_2_Auto204EF3D1249840E2D2B7647B951E9A412.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_2_Auto2.uasset'
+[2022.03.14-15.55.09:457][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_3] ([1] browsable assets)...
+[2022.03.14-15.55.09:460][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_3.T_EnemyDrone_Sprite_3]
+[2022.03.14-15.55.09:460][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_3]
+[2022.03.14-15.55.09:463][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_3_Auto24387857843A061CC10BE7DBD0085D2A5.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_3_Auto2.uasset'
+[2022.03.14-15.55.09:463][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_4] ([1] browsable assets)...
+[2022.03.14-15.55.09:467][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_4.T_EnemyDrone_Sprite_4]
+[2022.03.14-15.55.09:467][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_4]
+[2022.03.14-15.55.09:469][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_4_Auto2DF784FB64D7AAB3EE7213580CAA03593.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_4_Auto2.uasset'
+[2022.03.14-15.55.09:470][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_5] ([1] browsable assets)...
+[2022.03.14-15.55.09:473][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_5.T_EnemyDrone_Sprite_5]
+[2022.03.14-15.55.09:473][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_5]
+[2022.03.14-15.55.09:476][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_5_Auto2C197AF3F4874F307A19D94A365CC6189.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_5_Auto2.uasset'
+[2022.03.14-15.55.09:477][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_6] ([1] browsable assets)...
+[2022.03.14-15.55.09:481][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_6.T_EnemyDrone_Sprite_6]
+[2022.03.14-15.55.09:481][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_6]
+[2022.03.14-15.55.09:484][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_6_Auto231C0C34243ADC8630C8BBEA1636E6E3F.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_6_Auto2.uasset'
+[2022.03.14-15.55.09:485][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_7] ([1] browsable assets)...
+[2022.03.14-15.55.09:488][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_7.T_EnemyDrone_Sprite_7]
+[2022.03.14-15.55.09:488][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_7]
+[2022.03.14-15.55.09:491][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_7_Auto2B0C008D648E74E381A494297C469E5EA.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_7_Auto2.uasset'
+[2022.03.14-15.55.09:492][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_8] ([1] browsable assets)...
+[2022.03.14-15.55.09:496][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_8.T_EnemyDrone_Sprite_8]
+[2022.03.14-15.55.09:496][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_8]
+[2022.03.14-15.55.09:499][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_8_Auto27FA2FA9248871F675E9D7FAC8E6DA000.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_8_Auto2.uasset'
+[2022.03.14-15.55.09:499][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_9] ([1] browsable assets)...
+[2022.03.14-15.55.09:503][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_9.T_EnemyDrone_Sprite_9]
+[2022.03.14-15.55.09:503][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_9]
+[2022.03.14-15.55.09:506][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_9_Auto20961805B438DB91CAA784BA70A6FF3F7.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_9_Auto2.uasset'
+[2022.03.14-15.55.09:507][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_10] ([1] browsable assets)...
+[2022.03.14-15.55.09:511][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_10.T_EnemyDrone_Sprite_10]
+[2022.03.14-15.55.09:511][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_10]
+[2022.03.14-15.55.09:513][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_10_Auto2D7E86D42448FC25CE2E611B3F7AE4799.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_10_Auto2.uasset'
+[2022.03.14-15.55.09:514][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyDrone_Sprite_11] ([1] browsable assets)...
+[2022.03.14-15.55.09:517][ 97]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyDrone_Sprite_11.T_EnemyDrone_Sprite_11]
+[2022.03.14-15.55.09:517][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyDrone_Sprite_11]
+[2022.03.14-15.55.09:520][ 97]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone_Sprite_11_Auto23EAF44AD477C02A10710B09236B2B57C.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyDrone_Sprite_11_Auto2.uasset'
+[2022.03.14-15.55.09:520][ 97]LogFileHelpers: Auto-saving content packages took 0.092
+[2022.03.14-15.55.21:549][110]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_EnemyMidAttackship.T_EnemyMidAttackship
+[2022.03.14-15.55.39:752][223]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_EnemySmallAttackship.T_EnemySmallAttackship
+[2022.03.14-15.55.48:089][662]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_PickupFuelIdle.T_PickupFuelIdle
+[2022.03.14-15.55.56:537][142]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_PlayerEscapePod.T_PlayerEscapePod
+[2022.03.14-15.56.02:554][590]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/Textures/T_PlayerFleetship.T_PlayerFleetship
+[2022.03.14-15.56.21:218][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.03.14-15.56.22:417][740]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-15.56.22:969][740]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-15.56.22:969][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-15.56.22:986][740]LogUObjectGlobals: Force Deleting 12 Package(s):
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone2.T_EnemyDrone2
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_1.T_EnemyDrone_Sprite_1
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_2.T_EnemyDrone_Sprite_2
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_3.T_EnemyDrone_Sprite_3
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_4.T_EnemyDrone_Sprite_4
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_5.T_EnemyDrone_Sprite_5
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_6.T_EnemyDrone_Sprite_6
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_7.T_EnemyDrone_Sprite_7
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_8.T_EnemyDrone_Sprite_8
+	Asset Name: /Game/Assets/Textures/T_EnemyDrone_Sprite_9.T_EnemyDrone_Sprite_9
+[2022.03.14-15.56.25:571][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.03.14-15.56.43:828][708]LogSlate: Window 'Extract sprites' being destroyed
+[2022.03.14-15.56.53:411][284]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2022.03.14-16.05.09:985][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.03.14-16.05.09:988][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.027
+[2022.03.14-16.05.09:989][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_0] ([1] browsable assets)...
+[2022.03.14-16.05.09:993][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_0.T_EnemyLargeAttackship_Sprite_0]
+[2022.03.14-16.05.09:993][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_0]
+[2022.03.14-16.05.09:996][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_0_634C2B9D402C443A88A009B96AA60324.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_0_Auto3.uasset'
+[2022.03.14-16.05.09:997][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_1] ([1] browsable assets)...
+[2022.03.14-16.05.10:001][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_1.T_EnemyLargeAttackship_Sprite_1]
+[2022.03.14-16.05.10:001][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_1]
+[2022.03.14-16.05.10:004][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_1_DD420242451BC842EFF0A180930061F0.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_1_Auto3.uasset'
+[2022.03.14-16.05.10:005][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_2] ([1] browsable assets)...
+[2022.03.14-16.05.10:009][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_2.T_EnemyLargeAttackship_Sprite_2]
+[2022.03.14-16.05.10:009][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_2]
+[2022.03.14-16.05.10:013][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_2_F6CCE8164C542F24A4A2A59D606C3483.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_2_Auto3.uasset'
+[2022.03.14-16.05.10:013][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_3] ([1] browsable assets)...
+[2022.03.14-16.05.10:018][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_3.T_EnemyLargeAttackship_Sprite_3]
+[2022.03.14-16.05.10:018][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_3]
+[2022.03.14-16.05.10:022][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_3_75E288EA4B7C51EE6CD0B18AFCA6929D.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_3_Auto3.uasset'
+[2022.03.14-16.05.10:023][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_4] ([1] browsable assets)...
+[2022.03.14-16.05.10:027][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_4.T_EnemyLargeAttackship_Sprite_4]
+[2022.03.14-16.05.10:027][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_4]
+[2022.03.14-16.05.10:030][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_4_B209B1124B3166565733EC9703FEC571.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_4_Auto3.uasset'
+[2022.03.14-16.05.10:030][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_5] ([1] browsable assets)...
+[2022.03.14-16.05.10:035][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_5.T_EnemyLargeAttackship_Sprite_5]
+[2022.03.14-16.05.10:035][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_5]
+[2022.03.14-16.05.10:038][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_5_1C12F1A1417929F7A934E49220D6DE2A.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_5_Auto3.uasset'
+[2022.03.14-16.05.10:039][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_6] ([1] browsable assets)...
+[2022.03.14-16.05.10:042][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_6.T_EnemyLargeAttackship_Sprite_6]
+[2022.03.14-16.05.10:043][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_6]
+[2022.03.14-16.05.10:045][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_6_7D13ECC24066215E0EF6FDBE7A6A1634.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_6_Auto3.uasset'
+[2022.03.14-16.05.10:046][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_7] ([1] browsable assets)...
+[2022.03.14-16.05.10:049][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_7.T_EnemyLargeAttackship_Sprite_7]
+[2022.03.14-16.05.10:049][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_7]
+[2022.03.14-16.05.10:052][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_7_EE8CB1794A7256CD9B03AD9C14D47199.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_7_Auto3.uasset'
+[2022.03.14-16.05.10:053][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_8] ([1] browsable assets)...
+[2022.03.14-16.05.10:056][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_8.T_EnemyLargeAttackship_Sprite_8]
+[2022.03.14-16.05.10:056][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_8]
+[2022.03.14-16.05.10:059][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_8_9895A68A46C8BE71FAE24890448EF640.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_8_Auto3.uasset'
+[2022.03.14-16.05.10:059][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_9] ([1] browsable assets)...
+[2022.03.14-16.05.10:063][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_9.T_EnemyLargeAttackship_Sprite_9]
+[2022.03.14-16.05.10:063][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_9]
+[2022.03.14-16.05.10:066][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_9_C7B8A60E4FA34377CBC70D8420EB141D.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_9_Auto3.uasset'
+[2022.03.14-16.05.10:067][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_10] ([1] browsable assets)...
+[2022.03.14-16.05.10:070][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_10.T_EnemyLargeAttackship_Sprite_10]
+[2022.03.14-16.05.10:070][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_10]
+[2022.03.14-16.05.10:073][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_10244524584A5904A4BAD989ADD1264AD2.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_10_Auto3.uasset'
+[2022.03.14-16.05.10:074][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_11] ([1] browsable assets)...
+[2022.03.14-16.05.10:077][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_11.T_EnemyLargeAttackship_Sprite_11]
+[2022.03.14-16.05.10:077][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_11]
+[2022.03.14-16.05.10:080][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_11E149C73E42C6D1F81F4DD48EBCCB44D1.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_11_Auto3.uasset'
+[2022.03.14-16.05.10:081][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_12] ([1] browsable assets)...
+[2022.03.14-16.05.10:084][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_12.T_EnemyLargeAttackship_Sprite_12]
+[2022.03.14-16.05.10:085][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_12]
+[2022.03.14-16.05.10:087][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_12067624A643064F2E2D52FBA849BD1089.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_12_Auto3.uasset'
+[2022.03.14-16.05.10:088][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_13] ([1] browsable assets)...
+[2022.03.14-16.05.10:091][289]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_13.T_EnemyLargeAttackship_Sprite_13]
+[2022.03.14-16.05.10:091][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_13]
+[2022.03.14-16.05.10:094][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship_Sprite_13F4AC4B52496D339FECF3F6A23CB2D788.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship_Sprite_13_Auto3.uasset'
+[2022.03.14-16.05.10:094][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/T_EnemyLargeAttackship1] ([1] browsable assets)...
+[2022.03.14-16.05.10:098][289]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Assets/Textures/T_EnemyLargeAttackship1.T_EnemyLargeAttackship1]
+[2022.03.14-16.05.10:098][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/T_EnemyLargeAttackship1]
+[2022.03.14-16.05.10:100][289]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackship1_Auto3819F812C40A71D84AF929E82CD703E17.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Autosaves/Game/Assets/Textures/T_EnemyLargeAttackship1_Auto3.uasset'
+[2022.03.14-16.05.10:100][289]LogFileHelpers: Auto-saving content packages took 0.112
+[2022.03.14-16.08.31:557][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.03.14-16.08.33:022][322]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.14-16.08.33:162][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.03.14-16.08.37:236][660]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-16.08.37:237][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-16.08.37:694][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.14-16.08.37:694][695]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-16.08.37:694][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.14-16.08.41:593][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.03.14-16.08.43:332][127]LogSlate: Window 'Save Content' being destroyed
+[2022.03.14-16.08.43:369][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_BasicProjectile" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_BasicProjectile.uasset" SILENT=true
+[2022.03.14-16.08.43:372][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectile2B108A8D48E60EE17C8F3BBD5A384715.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_BasicProjectile.uasset'
+[2022.03.14-16.08.43:379][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_BasicProjectileMissile" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_BasicProjectileMissile.uasset" SILENT=true
+[2022.03.14-16.08.43:382][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_BasicProjectileMissile83F9EE2B42A1DA453369D9BB07813BEE.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_BasicProjectileMissile.uasset'
+[2022.03.14-16.08.43:387][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_EnemyDrone" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyDrone.uasset" SILENT=true
+[2022.03.14-16.08.43:391][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyDrone49F76308429743A6146C62996A2AA194.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyDrone.uasset'
+[2022.03.14-16.08.43:398][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_EnemyLargeAttackship" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyLargeAttackship.uasset" SILENT=true
+[2022.03.14-16.08.43:403][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyLargeAttackshipA78E2E334EC5B856AE2EAC9AB4C405DB.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyLargeAttackship.uasset'
+[2022.03.14-16.08.43:407][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_EnemyMidAttackship" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyMidAttackship.uasset" SILENT=true
+[2022.03.14-16.08.43:412][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemyMidAttackshipB76C7EBD492DA2D151DA7081A8C63666.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemyMidAttackship.uasset'
+[2022.03.14-16.08.43:415][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_EnemySmallAttackship" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemySmallAttackship.uasset" SILENT=true
+[2022.03.14-16.08.43:419][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_EnemySmallAttackshipCBB904874AF0AA18D337B88D3DD21383.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_EnemySmallAttackship.uasset'
+[2022.03.14-16.08.43:421][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_PickupFuelIdle" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PickupFuelIdle.uasset" SILENT=true
+[2022.03.14-16.08.43:424][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PickupFuelIdle105927B046FD4C655CFFCFA958D4E720.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PickupFuelIdle.uasset'
+[2022.03.14-16.08.43:425][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_PlayerEscapePod" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerEscapePod.uasset" SILENT=true
+[2022.03.14-16.08.43:429][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerEscapePod07D1DF674D6FE846FA402AB106D0DA89.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerEscapePod.uasset'
+[2022.03.14-16.08.43:434][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_PlayerFleetship" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerFleetship.uasset" SILENT=true
+[2022.03.14-16.08.43:438][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerFleetship4EAF5E884BAF701E8AE1CFACF887CD20.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerFleetship.uasset'
+[2022.03.14-16.08.43:441][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Textures/T_PlayerShip" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerShip.uasset" SILENT=true
+[2022.03.14-16.08.43:445][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/T_PlayerShip2F4C83E24F63AF2F29765384164E8D83.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Assets/Textures/T_PlayerShip.uasset'
+[2022.03.14-16.08.43:447][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.14-16.08.43:481][127]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.03.14-16.08.43:493][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/MainE890B92B4FC5FFE5E7E21BB03472CB4F.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Maps/Main.umap'
+[2022.03.14-16.08.43:509][127]LogFileHelpers: Saving map 'Main' took 0.063
+[2022.03.14-16.08.43:509][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../Battlestar-Galactica/ProgrammingTest/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.14-16.08.43:518][127]LogSavePackage: Moving '../../../../../Battlestar-Galactica/ProgrammingTest/Saved/Main_BuiltData0C01F7AD4F59882BC094199DA13309BA.tmp' to '../../../../../Battlestar-Galactica/ProgrammingTest/Content/Maps/Main_BuiltData.uasset'
+[2022.03.14-16.08.43:576][127]LogSlate: Window 'ProgrammingTest - Unreal Editor' being destroyed
+[2022.03.14-16.08.43:737][127]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_BasicProjectile.T_BasicProjectile
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_BasicProjectileMissile.T_BasicProjectileMissile
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_EnemyDrone.T_EnemyDrone
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_EnemyLargeAttackship.T_EnemyLargeAttackship
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_EnemyMidAttackship.T_EnemyMidAttackship
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_EnemySmallAttackship.T_EnemySmallAttackship
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_PickupFuelIdle.T_PickupFuelIdle
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_PlayerEscapePod.T_PlayerEscapePod
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_PlayerFleetship.T_PlayerFleetship
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating Texture2D /Game/Assets/Textures/T_PlayerShip.T_PlayerShip
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.14-16.08.43:737][127]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.14-16.08.43:762][128]Cmd: QUIT_EDITOR
+[2022.03.14-16.08.43:762][128]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.14-16.08.43:768][128]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.14-16.08.43:784][128]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.03.14-16.08.43:792][128]LogExit: Preparing to exit.
+[2022.03.14-16.08.44:306][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:306][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.14-16.08.44:307][128]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-16.08.44:318][128]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.14-16.08.44:319][128]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.14-16.08.44:320][128]LogExit: Editor shut down
+[2022.03.14-16.08.44:320][128]LogExit: Transaction tracking system shut down
+[2022.03.14-16.08.44:391][128]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024F188FC800), frame # 154128
+[2022.03.14-16.08.44:391][128]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024F18F81D00), frame # 154128
+[2022.03.14-16.08.44:396][128]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000024F272C9BC0), frame # 154128
+[2022.03.14-16.08.44:396][128]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024F2722AAC0), frame # 154128
+[2022.03.14-16.08.44:396][128]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024F2728C800), frame # 154128
+[2022.03.14-16.08.44:471][128]LogExit: Object subsystem successfully closed.
+[2022.03.14-16.08.44:502][128]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.14-16.08.44:524][128]LogModuleManager: Shutting down and abandoning module TextureEditor (794)
+[2022.03.14-16.08.44:524][128]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2022.03.14-16.08.44:524][128]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (790)
+[2022.03.14-16.08.44:524][128]LogModuleManager: Shutting down and abandoning module SceneOutliner (788)
+[2022.03.14-16.08.44:525][128]LogModuleManager: Shutting down and abandoning module AddContentDialog (786)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WidgetCarousel (785)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module EditorWidgets (782)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module CollectionManager (780)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2022.03.14-16.08.44:526][128]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2022.03.14-16.08.44:527][128]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2022.03.14-16.08.45:990][128]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2022.03.14-16.08.45:990][128]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2022.03.14-16.08.45:990][128]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2022.03.14-16.08.45:990][128]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2022.03.14-16.08.45:990][128]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2022.03.14-16.08.45:991][128]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2022.03.14-16.08.46:024][128]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2022.03.14-16.08.46:029][128]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2022.03.14-16.08.46:030][128]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2022.03.14-16.08.46:158][128]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2022.03.14-16.08.46:159][128]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2022.03.14-16.08.46:162][128]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2022.03.14-16.08.46:163][128]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2022.03.14-16.08.46:264][128]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2022.03.14-16.08.46:365][128]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2022.03.14-16.08.46:365][128]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2022.03.14-16.08.46:365][128]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2022.03.14-16.08.46:366][128]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2022.03.14-16.08.46:367][128]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module Core (216)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2022.03.14-16.08.46:368][128]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2022.03.14-16.08.46:369][128]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2022.03.14-16.08.46:370][128]LogXGEController: Cleaning working directory: C:/Users/Asa Hutchinson IV/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2022.03.14-16.08.46:370][128]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2022.03.14-16.08.46:371][128]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2022.03.14-16.08.46:372][128]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2022.03.14-16.08.46:373][128]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2022.03.14-16.08.46:374][128]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2022.03.14-16.08.46:378][128]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2022.03.14-16.08.46:378][128]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2022.03.14-16.08.46:378][128]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2022.03.14-16.08.46:378][128]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2022.03.14-16.08.46:379][128]LogHMD: Freeing OpenVRDLLHandle.
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.03.14-16.08.46:379][128]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2022.03.14-16.08.46:380][128]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2022.03.14-16.08.46:380][128]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2022.03.14-16.08.46:401][128]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2022.03.14-16.08.46:401][128]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.03.14-16.08.46:401][128]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3CC1F8BD-403A-1E2D-03D5-6C87104C0C0E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=aa92a32e4dfed411cc36e18f203a5ac9%7C7d1e9113a0bb4d64afff3304040f99c1%7Cc133511f-68fe-4716-821f-72907cb2ee33&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2022.03.14-16.08.46:403][128]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2022.03.14-16.08.46:404][128]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2022.03.14-16.08.46:405][128]LogModuleManager: Shutting down and abandoning module Media (61)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.03.14-16.08.46:406][128]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.03.14-16.08.46:407][128]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.03.14-16.08.46:408][128]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.03.14-16.08.46:408][128]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.03.14-16.08.46:409][128]LogD3D11RHI: Shutdown
+[2022.03.14-16.08.46:409][128]LogD3D11RHI: CleanupD3DDevice
+[2022.03.14-16.08.46:424][128]LogExit: Exiting.
+[2022.03.14-16.08.46:433][128]Log file closed, 03/14/22 11:08:46
